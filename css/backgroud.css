@@ -1,7 +1,12 @@
 .music_img{
     position: absolute;
     left: 10%;
-    top: 20%;
+    top: 15%;
+    
+}
+
+img{
+    border-radius: 25px;
 }
 
 body, html {

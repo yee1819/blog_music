@@ -1,33 +1,60 @@
-
 .scrollable-list {
     position: absolute;
-    left: 55%;
-    width: 40%;
-    max-height: 90vh; /* 使用百分比单位来设置最大高度 */
-    overflow-y: auto; /* 垂直滚动条 */
-    border: 1px solid #ccc; /* 边框样式 */
-    padding: 10px; /* 内边距 */
+    left: 53%;
+    top: 5%;
+    border-radius: 25px;
+    width: 42%;
+    max-height: 90vh;
+    /* 使用百分比单位来设置最大高度 */
+    overflow-y: auto;
+    /* 垂直滚动条 */
+    border: 1px solid #ccc;
+    /* 边框样式 */
+    padding: 10px;
+    /* 内边距 */
     margin: 20px;
 }
-.current-song{
-        background-color:white;
-        height: 20px;
+
+.current-song {
+    background-color: rgba(255, 255, 255, 0.634);
+    padding: 20px 15px;
+    font-size: 24px;
+    font-weight: bold;
 }
-audio{
-position: absolute;
-top: 70%;
-left: 15%;
+
+ul{
+    background-color: rgba(255, 255, 255, 0.473);
+    border-radius: 25px;
+}
+
+audio {
+    position: absolute;
+    
+    top: 70%;
+    left: 15%;
 
 }
 
-li{
-    list-style: none;
-    border-radius: 25px  ;
+.aplayer-list-author{
+    float: right;
+    cursor: pointer;
 }
 
-li:hover{
+
+li {
+    list-style: decimal;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+li:hover {
     background-color: aqua;
 }
-.playlist{
+
+.playlist {
     height: 75%;
 }

@@ -12,7 +12,11 @@ document.addEventListener('DOMContentLoaded', function () {
             data.forEach((song, index) => {
                 
                 const listItem = document.createElement('li');
-                listItem.textContent = song.title + "     \t" + song.time;
+                listItem.textContent = song.title ;
+                var span =document.createElement('span');
+                span.textContent = song.author;
+                span.classList.add('aplayer-list-author');
+                listItem.appendChild(span);
                 listItem.setAttribute('data-src', song.src);
                 listItem.classList.add('song');
                 if(ans==0){
